@@ -36,16 +36,23 @@ print(len(menu_makanan))
 luas = [10, 15, 20, 25, 30, 35, 50]
 print(min(luas))
 print()
-angka = [12,56,34,10,45]
+angka = [12, 56, 34, 10, 45]
 angka.sort()
 print(angka)
 
 print()
-r = {'lemon':'kagura', 'R7':'chou', 'tuturu':'bart', 'albert': 'cloude'}
+r = {'lemon': 'kagura', 'R7': 'chou', 'tuturu': 'bart', 'albert': 'cloude'}
 print(r)
 
-k = {'xinn':'ling'}
+k = {'xinn': 'ling'}
 print(k)
 print()
 r.update(k)
 print(r)
+print()
+T = {2, 4, 5, 7}
+print(T)
+X = {8}
+print(X)
+X.update(T)
+print(X)
