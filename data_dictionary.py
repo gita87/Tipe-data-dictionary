@@ -29,8 +29,11 @@ data_dari_server_Gojek = {
 }
 
 print(data_dari_server_Gojek)
+print()
 print(f"driver di sekitar sini {data_dari_server_Gojek['driver_list']}")
+print()
 print(f"driver #1 {data_dari_server_Gojek['driver_list'][0]}")
+print()
 print(f"driver #3 {data_dari_server_Gojek['driver_list'][3]}")
 print()
 print(f"Jarak driver terdekat {data_dari_server_Gojek['driver_list'][0]['jarak']} meter")
@@ -39,3 +42,4 @@ print()
 print(f"coba dulu {data_dari_server_Gojek['driver_list'][2]['nama']}")
 print(f"Driver {data_dari_server_Gojek['driver_list'][2]['nama']} berjarak "
       f"{data_dari_server_Gojek['driver_list'][2]['jarak']} meter")
+
