@@ -1,1 +1,3 @@
 print('hello world')
+perhitungan_luas_persegipanjang
+perhitungan_luas_segittiga
