@@ -10,8 +10,8 @@ i = 'u'
 r.append(i)
 print(r)
 
-for r in r:
-    print(f'hai {r}')
+#for r in r:
+#    print(f'hai {r}')
 
-for r in range(len(r)):
-    print(f'{r+1}. hai{r}')
+for o in range(0, len(r)):
+    print(f'{o+1}. hai {r[o]}')
